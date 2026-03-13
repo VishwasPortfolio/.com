@@ -1,14 +1,16 @@
 .card{
-background:#1f2937;
+background:#1e293b;
 padding:25px;
-border-radius:10px;
+border-radius:12px;
 text-align:center;
 font-weight:600;
 transition:0.3s;
+border:1px solid rgba(255,255,255,0.05);
 }
 
 .card:hover{
-transform:translateY(-5px);
+transform:translateY(-8px);
+background:#334155;
 }
 
 .skill{
@@ -16,10 +18,16 @@ background:#2563eb;
 padding:10px 18px;
 border-radius:20px;
 font-size:14px;
+font-weight:500;
 }
 
 .project-card{
-background:#1f2937;
+background:#1e293b;
 padding:15px;
-border-radius:10px;
+border-radius:12px;
+transition:0.3s;
+}
+
+.project-card:hover{
+transform:scale(1.05);
 }
