@@ -1,0 +1,25 @@
+.card{
+background:#1f2937;
+padding:25px;
+border-radius:10px;
+text-align:center;
+font-weight:600;
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+}
+
+.skill{
+background:#2563eb;
+padding:10px 18px;
+border-radius:20px;
+font-size:14px;
+}
+
+.project-card{
+background:#1f2937;
+padding:15px;
+border-radius:10px;
+}
